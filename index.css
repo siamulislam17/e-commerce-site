@@ -1,0 +1,208 @@
+header{
+    background-color: rgb(4, 126, 167);
+    height: 20%;
+    align-items: center;
+    border-top-left-radius: 20px;
+    box-shadow: 2px 4px 16px 8px rgba(255, 255, 255, 0.15);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin-top: 0%;
+    padding-top: 0px;
+
+}
+.web_name{
+    font-family: "Shantell Sans", cursive;
+    margin-left: 1%;
+    width: 25%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 10px;
+    position: relative;
+    top: 50px;
+    
+    cursor: pointer;
+    width: 14%;
+}
+.web_name a:hover{
+    color: rgb(238, 255, 0);
+}
+.web_name a{
+    
+    text-align: center;
+    color: rgb(212, 246, 250);
+    text-decoration: none;
+}
+
+
+.header{
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    justify-content: space-around;
+    /* font-weight: bold; */
+    color: white;
+    position: relative;
+    left: 20%;
+    width: 75%;
+}
+.Search{
+    
+    align-items: center;
+    margin-bottom: 0px;  
+   
+    width: 50%;
+    height: 60px;
+}
+.Search input{
+    height: 33px;
+    margin-bottom: 0px;
+    width: 80%;
+    border: none;   
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+} 
+.Search button{
+    position: relative;
+    top: 6px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    left: -4px;
+    cursor: pointer;
+}
+.Search button:active{
+    color:rgb(225, 27, 27) ;
+}
+.sign{
+    position: relative;
+    display: flex;
+    padding-top: 15px;
+}
+.sign a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.sign p{
+    margin-top: 3px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    
+}
+.sign a:hover{
+    color: yellow;
+
+}
+
+.Register{
+    position: relative;
+    top: 3px;
+}
+.Register a{
+    color: white;
+    text-decoration: none;
+}
+.Register a:hover{
+    color: yellow;
+}
+.right_bar_feature span{
+    position: relative;
+    left: 15px;
+
+}
+.right_bar_feature_2 p{
+    position: relative;
+    left: -5px;
+    
+
+}
+.catagory{
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 30%;
+    display: flex;
+    animation: catagory 3s ease-in-out 1s infinite alternate ;
+    
+}
+@keyframes catagory {
+    0%{left: 0px;}
+    50%{left: -20px;}
+    100%{left: -30px;}
+}
+.catagory_child{
+    display: grid;
+    margin-left: 15px;
+    
+}
+.catagory_child p{
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 10px;
+    font-family: "Work Sans", sans-serif ;
+}
+.catagory_child img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.catagory_child img:hover{
+    border: 7px solid  rgb(140, 208, 231);
+    height: 85px;
+    width: 85px;
+}
+
+.hather_muthoy{
+    position: relative;
+    top: 60vh;
+    width: 100%;
+
+}
+.hather_muthoy img{
+    width: 100vw;
+}
+.bottom_product_div{
+    position: absolute;
+    top: 120vh;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 20vw;
+    column-gap: 70px;
+    row-gap: 30px;
+    animation: catagory_bottom 8s ease-in-out 1s infinite alternate ;
+
+}
+.bottom_product_child_div{
+    font-family:"Work Sans", sans-serif ;
+    
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    color: rgb(0, 117, 143);
+    cursor: pointer;
+    margin-top: 10px;
+}
+.bottom_product_child_div:hover{
+    border: 1px solid rgb(0, 199, 234);
+}
+.bottom_product_child_div img{
+    border-radius: 100px;
+    height: 30vh;
+    margin-right: 20px;
+    
+}
+@keyframes catagory_bottom {
+    0%{left: 0px;}
+    50%{left: -100px;}
+    100%{left: -300px;}
+}
+.Wishlist{
+    margin-top: 0px;
+}
+.Cart{
+    margin-top: 0px;
+}
